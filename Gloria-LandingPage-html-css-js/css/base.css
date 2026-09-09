@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --bg: #f5f0ec;
+  --surface: #f8f6f4;
+  --surface-deep: #231b3a;
+  --surface-deep-strong: #1c1531;
+  --card: rgba(255, 255, 255, 0.04);
+  --card-strong: #f4efe9;
+  --text: #1b1a1a;
+  --muted: #5d5d70;
+  --cream: #f9f5f1;
+  --cream-soft: rgba(249, 245, 241, 0.8);
+  --border: rgba(255, 255, 255, 0.14);
+  --accent: #a496d8;
+  --accent-strong: #7d66c4;
+  --ink: #130f1d;
+  --shadow: 0 28px 60px rgba(16, 12, 24, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  margin-top: 0;
+}
+
+.page-shell {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.section,
+.site-footer {
+  padding-inline: 1.5rem;
+}
+
+.section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section-compact {
+  padding-top: 0;
+  padding-bottom: 5rem;
+}
+
+.content-grid,
+.video-layout,
+.app-layout,
+.contact-banner,
+.footer-grid,
+.content-stack {
+  width: min(1200px, calc(100% - 1rem));
+  margin: 0 auto;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 2.5rem 5rem;
+  align-items: start;
+}
+
+.text-block {
+  color: var(--muted);
+  font-size: 1.06rem;
+  line-height: 1.8;
+}
+
+.text-block p + p {
+  margin-top: 1.15rem;
+}
+
+.text-block strong,
+.lead strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.section-title {
+  margin: 1.5rem 0 0;
+  font-size: clamp(2.1rem, 4vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+}
+
+.hero p,
+.section p,
+.site-footer p,
+.site-footer li,
+.team-content a,
+.footer-links a {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.note-box {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: var(--muted);
+  line-height: 1.7;
+  box-shadow: 0 12px 30px rgba(20, 16, 30, 0.05);
+}
+
+.lead {
+  margin-top: 1.25rem;
+  font-size: 1.06rem;
+  line-height: 1.8;
+  color: rgba(249, 245, 241, 0.8);
+}
+
+.reveal {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateY(24px);
+  transition: opacity 0.9s ease, transform 0.9s ease, filter 0.9s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

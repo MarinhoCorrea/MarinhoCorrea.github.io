@@ -1,0 +1,48 @@
+@media (max-width: 900px) {
+  .content-grid,
+  .story-card,
+  .video-layout,
+  .app-layout,
+  .solution-grid,
+  .team-grid,
+  .objectives-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    padding-top: 30vh;
+  }
+
+  .story-card {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 640px) {
+  .section,
+  .site-footer {
+    padding-inline: 1rem;
+  }
+
+  .hero-inner {
+    width: min(100%, calc(100% - 1rem));
+  }
+
+  .hero-copy {
+    padding-top: 23vh;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .contact-banner {
+    padding-inline: 1.25rem;
+    padding-block: 3rem;
+  }
+}

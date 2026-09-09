@@ -1,0 +1,135 @@
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.15rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.hero .eyebrow,
+.contact-banner .eyebrow {
+  color: var(--cream);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 999px;
+  border: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-weight: 700;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgba(249, 245, 241, 0.9);
+  transform: translateY(-1px);
+}
+
+.button-primary {
+  margin-top: 2.4rem;
+}
+
+.button-light {
+  margin-top: 2.5rem;
+}
+
+.icon-wrap,
+.objective-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrap {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.9rem;
+  background: rgba(249, 245, 241, 0.1);
+  color: var(--cream);
+}
+
+.objective-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.9rem;
+  background: var(--accent);
+  color: var(--ink);
+}
+
+.icon-wrap svg,
+.objective-icon svg,
+.feature-card svg,
+.site-footer svg,
+.device-placeholder svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.feature-card svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--accent-strong);
+}
+
+.device-placeholder svg {
+  width: 2.25rem;
+  height: 2.25rem;
+  opacity: 0.7;
+}
+
+.team-content a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.team-content a::before {
+  content: "in";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+  background: var(--accent-strong);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-links a::before {
+  content: "";
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: var(--accent-strong);
+}
