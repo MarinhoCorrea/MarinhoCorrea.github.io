@@ -98,6 +98,7 @@ li {
 }
 
 .text-block {
+  padding-top: 6rem;
   color: var(--muted);
   font-size: 1.06rem;
   line-height: 1.8;
@@ -107,14 +108,21 @@ li {
   margin-top: 1.15rem;
 }
 
-.text-block strong,
-.lead strong {
+.text-block strong {
   color: var(--text);
   font-weight: 700;
 }
 
+.lead strong,
+.story-content strong,
+.contact-banner strong {
+  color: inherit;
+  font-weight: 700;
+}
+
 .section-title {
-  margin: 1.5rem 0 0;
+  margin: 2rem 0 0;
+  padding-bottom: 20px;
   font-size: clamp(2.1rem, 4vw, 4rem);
   line-height: 1.08;
   letter-spacing: -0.05em;
