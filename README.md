@@ -1,74 +1,82 @@
-# Glória — Tecnologia Assistiva Alimentar
+# Projeto Glória
 
-Landing page de apresentação do Projeto Glória, desenvolvida para a atividade de Identidade Visual e Landing Page (Programação Web III).
+## Nome do projeto e descrição resumida
 
-## Sobre o projeto
+Projeto Glória é uma iniciativa de tecnologia assistiva voltada à autonomia alimentar de pessoas com limitações motoras nas mãos e nos punhos. A proposta do projeto é criar um dispositivo e uma experiência digital que ajudem na alimentação de forma mais independente, confortável e segura.
 
-Glória é uma iniciativa de tecnologia assistiva voltada à autonomia alimentar de pessoas com limitações motoras nas mãos e nos punhos. O projeto nasceu a partir do caso real de uma familiar de um dos integrantes da equipe, chamada Glória, que enfrenta atrofia muscular nas mãos causada pela combinação entre Fibromialgia e Artrite Reumatoide.
+A landing page foi desenvolvida para apresentar a ideia, o problema identificado, a solução proposta e a equipe responsável pelo projeto.
 
-## Problema
+## Problema e solução
 
-Pessoas com limitações motoras nas mãos — causadas por condições como Artrite Reumatoide e Artrose — enfrentam dificuldade para segurar talheres e levar o alimento até a boca, o que compromete sua autonomia durante as refeições e gera dependência de terceiros.
+### Problema
+Pessoas com dificuldades motoras nas mãos, como as causadas por Artrite Reumatoide, Artrose e outras condições que comprometem força e coordenação, enfrentam barreiras para segurar talheres e levar o alimento até a boca. Isso impacta a autonomia, a dignidade e a qualidade de vida durante as refeições.
 
-## Solução
+### Solução
+O Projeto Glória propõe um dispositivo assistivo que se adapta ao antebraço do usuário, reduzindo a necessidade de movimentação do punho e das mãos. A ideia é oferecer maior estabilidade ao talher, diminuir dores e facilitar o ato de se alimentar com mais autonomia e conforto.
 
-Um dispositivo tecnológico que se adapta ao antebraço do usuário, eliminando a necessidade de utilização das mãos e a movimentação do punho. Isso reduz a dor e proporciona mais estabilidade e conforto durante a alimentação. O dispositivo é complementado por um aplicativo mobile para visualização e consumo de bateria e calibragem do equipamento.
+Além disso, o projeto conta com um aplicativo mobile para monitoramento de bateria, consumo e calibragem do equipamento, tornando a solução mais funcional e acessível.
 
 ## Público-alvo
 
-Pessoas com limitações motoras nas mãos e nos punhos, como as causadas por Artrite Reumatoide e Artrose, que têm dificuldade de se alimentar de forma independente.
+O público-alvo do projeto são pessoas com limitações motoras nas mãos e no punho, especialmente aquelas que necessitam de apoio para realizar a alimentação de forma independente.
 
 ## Tecnologias utilizadas
 
 - HTML5
-- CSS3 (Tailwind CSS)
+- CSS3
 - JavaScript
+- GitHub Pages para publicação da landing page
 
-## Equipe
+## Equipe e responsabilidades
 
-- Gabriel Ziani Alves
-- Pedro Marinho R. C. Corrêa
-- Vitor Paiva Nunes de Paula
+### Gabriel Ziani Alves
+- Desenvolvimento e estrutura visual da landing page
+- Contribuição no design e na apresentação do projeto
+
+### Pedro Marinho R. C. Corrêa
+- Desenvolvimento front-end
+- Organização e implementação da identidade visual e conteúdo da página
+
+### Vitor Paiva Nunes de Paula
+- Contribuição no conteúdo do projeto
+- Apoio na organização das informações e na narrativa visual da proposta
 
 ## Identidade visual
 
-**Logotipo:** `img/logo.png`
+### Logotipo
+O logotipo do projeto foi preservado em arquivo localizado em `img/logo.png` e representa a marca do Projeto Glória em um estilo clean, moderno e institucional.
 
-**Paleta de cores:**
+### Paleta de cores
+| Cor | Código | Uso |
+| --- | --- | --- |
+| Azul-marinho | `#231b3a` | fundo principal e blocos de destaque |
+| Azul-escuro | `#1c1531` | fundos mais intensos |
+| Bege claro | `#f5f0ec` | fundo geral da página |
+| Text color | `#1b1a1a` | textos principais |
+| Muted text | `#5d5d70` | textos secundários |
+| Lilás/azul acentuado | `#a496d8` | detalhes, destaques e ícones |
 
-| Cor | Código |
-| --- | --- |
-| Azul-marinho (cor principal / fundo escuro) | `#171940` |
-| Azul arroxeado (cor secundária) | `#2F3159` |
-| Bege claro (cor de fundo / texto sobre fundo escuro) | `#EEE8DF` |
+### Tipografia
+A landing page utiliza a fonte Manrope, com foco em legibilidade, modernidade e boa hierarquia visual. A escolha contribui para uma interface clara, elegante e acessível.
 
-**Tipografia:**
-- Títulos: Sora
-- Textos: Manrope
+## Link da landing page publicada
 
-## Estrutura do repositório
+A landing page do Projeto Glória está disponível em:
 
-```
-USUARIO.github.io/
+https://<seu-usuario>.github.io/Gloria-LandingPage/
+
+> Ajuste o nome de usuário do GitHub no link acima para a URL final pública do projeto após a publicação no GitHub Pages.
+
+## Repositório
+
+O projeto está estruturado em arquivos estáticos, com os seguintes diretórios principais:
+
+```bash
+Gloria-LandingPage/
 ├── index.html
 ├── css/
-│   └── style.css
 ├── js/
-│   └── script.js
 ├── img/
-│   ├── logo.png
-│   ├── favicon.png
-│   ├── hero-desktop.jpeg
-│   ├── hero-mobile.jpeg
-│   ├── gloria.jpeg
-│   └── interfacie-App.jpeg
-└── README.md
+├── README.md
+└── .gitignore
 ```
-
-## Publicação
-
-1. Renomeie o repositório para `USUARIO.github.io` (substituindo `USUARIO` pelo seu usuário do GitHub).
-2. Em **Settings > Pages**, selecione a branch `main` e a pasta raiz (`/`) como origem.
-3. A landing page ficará disponível em `https://USUARIO.github.io/`.
-
-**Landing page:** https://USUARIO.github.io/
